@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+.title {
+  height: 310px;
+  background-image: url(../image/common/IMG_3014.JPG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.title h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.title h2 {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.lead {
+  max-width: 1200px;
+  margin: 60px auto;
+  text-align: center;
+  color: #8c8c8c;
+}
+
+.explain {
+  margin: 60px auto;
+  text-align: center;
+  color: hsl(0, 0%, 55%);
+  line-height: 150%;
+}
+
+.lead img {
+  padding: 10px;
+}

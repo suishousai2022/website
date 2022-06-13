@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+.title {
+  height: 310px;
+  background-image: url(../image/common/IMG_2934.JPG);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 10px #4b2c14;
+}
+
+.title h1 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.title h2 {
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.explain {
+  margin: 30px auto;
+  text-align: center;
+  color: hsl(0, 0%, 55%);
+  line-height: 150%;
+}
+
+
+h3 {
+  color: #595959;
+  display: inline;
+  background-image: linear-gradient(
+    rgba(0 0 0 / 0) 70%,
+    #9eceff 70%
+  );
+}
+
+
+.kousya-image {
+  text-align: center;
+}
+
+.syousaizu {
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+  margin: 10px;
+  color: #8c8c8c;
+  background: #9eceff;
+  border-radius: 9px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.22);
+}
+
