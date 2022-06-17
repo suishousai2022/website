@@ -37,7 +37,7 @@ function CountdownTimer(elm, tl, mes) {
   }
   function CDT() {
   var tl = new Date('2022/6/18 9:30:00');// 日付指定
-  var timer = new CountdownTimer('CDT', tl, '開催中！');
+  var timer = new CountdownTimer('CDT', tl, 'Start!!');
   timer.countDown();
   }
   
