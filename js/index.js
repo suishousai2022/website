@@ -36,8 +36,8 @@ function CountdownTimer(elm, tl, mes) {
   }
   }
   function CDT() {
-  var tl = new Date('2022/6/18 9:30:00');// 日付指定
-  var timer = new CountdownTimer('CDT', tl, '翠翔祭2022は終了しました');
+  var tl = new Date('2023/6/24 9:30:00');// 日付指定
+  var timer = new CountdownTimer('CDT', tl, '翠翔祭2023開催中！');
   timer.countDown();
   }
   
