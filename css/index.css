@@ -40,6 +40,8 @@
   color: #8c8c8c;
 }
 
+
+
 #CDT {
   border-radius: 24px;
   padding-left: 5px;
@@ -100,6 +102,49 @@
   line-height: 2;
   text-align: center;
   font-size: 15px;
+}
+
+.lead a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  padding: 30px;
+  width: 260px;
+  color: #8c8c8c;
+  font-size: 18px;
+  font-weight: 700;
+  text-decoration: none;
+  background-color: #9eceff;
+  border-radius: 40px;
+}
+
+.lead a::before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  border-top: 2px solid #2592ff;
+  border-right: 2px solid #2592ff;
+  transform: rotate(45deg);
+}
+
+.lead a::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  transform: translateY(-50%);
+  width: 15px;
+  height: 2px;
+  background-color: #2592ff;
+}
+
+.lead a {
+  margin:0 auto;
+}
+
+.lead a:hover {
+  background-color: #6db6ff;
 }
 
 .GP {
